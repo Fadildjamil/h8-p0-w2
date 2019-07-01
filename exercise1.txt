@@ -1,6 +1,20 @@
-Judul = Pseudocode Challenge
+++++++++++++++++++++++++++++++++
+  Judul = Pseudocode Challenge 
+++++++++++++++++++++++++++++++++
 
-1. Newton Second Law
+
+1. Newton Second Law                         
+====================                       
+                                                 
+Algorithm :                                                           
+                                            
+ 1. Create m with value number 600          
+ 2. Create a with value number 2            
+ 3. Calculate m times a                     
+ 4. Result from calculate set as F (Newton) 
+
+
+Pseudocode :
 
 STORE "m" with 600
 STORE "a" with 2
@@ -10,21 +24,44 @@ SET "F" with calculation result
 
 DISPLAY "F"
 
-2. Tahun Kabisat
 
-IF ("year" mod 4 is o) 
-then
-IF ("year" mod 100 is 0)
-then
-IF ("year mod 400 is 0 )
+2. Leap Year
+=============
 
-DISPLAY "Leap Year"
+Algorithm :
 
-IF not, DISPLAY "Gregorian Year"
-END IF
+1. Input Year
+2. IF the modulo after Year divide with 4 not equals with 0 then the display show "Not Leap year"
+3. IF the modulo after Year divide with 100 equals 0 and modulo after Year divide 400 not equals with 0, the display "Not Leap year"
+4. IF the all conditions not requirements then Display "Leap Year"
 
+
+Pseudocode :
+
+IF "Year" mod 4 not equals 0 
+Display "Year" + "Not leap year"
+
+IF "Year" mod 100 equals 0 And "Year" mod 400 not equals to 0
+Display "Year" + "Not leap year"
+
+IF all condition not 
+Display "Year" + "Leap Year"
+  
 
 3. Laundry Day
+================
+
+Algorithm :
+
+1. Make a note that Foxie have twenty clothes
+2. Collect the twenty clothes and put in one bucket
+3. Lift the bucket then put it around washer
+4. Input the clothes into washer one by one until twenty
+5. Add soap
+4. Start Washer 
+
+
+Pseudocode :
 
 SET "P" as Clothes
 
@@ -32,7 +69,19 @@ IF "P" = 20
 DISPLAY "Machine Start"
 
 
-4. Periksa Kuku
+4. Checking Nails
+==================
+
+Algorithm :
+
+1. The teacher walking and explore classes
+2. In that school, just have two classes 
+3. Total students in each class is 20 students
+4. If the teacher found Long nails in Student, the Student get punished
+5. If not, The student get compliment
+
+
+Pseudocode :
 
 SET "S" as Students
 SET "T" as Teacher
