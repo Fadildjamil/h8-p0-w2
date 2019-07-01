@@ -1,0 +1,50 @@
+Judul = Pseudocode Challenge
+
+1. Newton Second Law
+
+STORE "m" with 600
+STORE "a" with 2
+
+CALCULATE "m" times "a"
+SET "F" with calculation result
+
+DISPLAY "F"
+
+2. Tahun Kabisat
+
+IF ("year" mod 4 is o) 
+then
+IF ("year" mod 100 is 0)
+then
+IF ("year mod 400 is 0 )
+
+DISPLAY "Leap Year"
+
+IF not, DISPLAY "Gregorian Year"
+END IF
+
+
+3. Laundry Day
+
+SET "P" as Clothes
+
+IF "P" = 20
+DISPLAY "Machine Start"
+
+
+4. Periksa Kuku
+
+SET "S" as Students
+SET "T" as Teacher
+SET "LN" as Long nails
+
+IF "T" found "LN" in "S"
+    DISPLAY "Get Punished"
+ELSE
+    DISPLAY "Get Compliment"
+
+DO while until get "S" equals to 40
+
+
+
+
