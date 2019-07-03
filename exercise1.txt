@@ -13,7 +13,6 @@ Algorithm :
  3. Calculate m times a                     
  4. Result from calculate set as F (Newton) 
 
-
 Pseudocode :
 
 STORE "m" with 600
@@ -39,13 +38,13 @@ Algorithm :
 Pseudocode :
 
 IF "Year" mod 4 not equals 0 
-Display "Year" + "Not leap year"
+  Display "Year" + "Not leap year"
 
 IF "Year" mod 100 equals 0 And "Year" mod 400 not equals to 0
-Display "Year" + "Not leap year"
+  Display "Year" + "Not leap year"
 
 IF all condition not 
-Display "Year" + "Leap Year"
+  Display "Year" + "Leap Year"
   
 
 3. Laundry Day
@@ -53,21 +52,20 @@ Display "Year" + "Leap Year"
 
 Algorithm :
 
-1. Make a note that Foxie have twenty clothes
-2. Collect the twenty clothes and put in one bucket
-3. Lift the bucket then put it around washer
-4. Input the clothes into washer one by one until twenty
-5. Add soap
-4. Start Washer 
-
+1. Create P as variable Clothes
+2. Add one by one clothes in Washer until 20
+3. Start Washer 
+4. If not, the washer cant Start
 
 Pseudocode :
 
-SET "P" as Clothes
+STORE "P" with 0
 
-IF "P" = 20
-DISPLAY "Machine Start"
+WHILE "P" < 20
+  ADD "P" by 1
+END WHILE 
 
+DISPLAY "Start Machine"
 
 4. Checking Nails
 ==================
